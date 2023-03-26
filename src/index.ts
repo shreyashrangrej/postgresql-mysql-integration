@@ -3,7 +3,7 @@ import { Model, DataTypes, Sequelize } from 'sequelize'
 const sequelize = new Sequelize({
     dialect: 'postgres',
     username: 'shreyash',
-    password: 'C_2iTU85UXqj2QWm-d_zpA',
+    password: 'fa1U34K6N6pYsAHJVC-uDA',
     host: 'source-2602.7s5.cockroachlabs.cloud',
     port: 26257,
     database: 'source',
@@ -12,7 +12,7 @@ const sequelize = new Sequelize({
             rejectUnauthorized: true,
         },
     }
-});
+})
 
 class user extends Model {
     public id!: number;
